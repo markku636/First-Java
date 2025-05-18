@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.common.member;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
         @RequestMapping("/test")
         public String test() {
             System.out.println("Hi!");
-            return "Hello World";
+            return "Hello World!!";
         }
     }
 
