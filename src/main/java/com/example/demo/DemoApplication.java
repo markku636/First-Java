@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class DemoApplication {
 
 	public static void main(String[] args) {
- 		System.out.println(com.common.test.TestHelper.isNullOrEmpty("test"));
+ 
 
 		SpringApplication.run(DemoApplication.class, args);
 	}
